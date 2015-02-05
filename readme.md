@@ -6,12 +6,14 @@ It started as a fork of [quick-vim][], but have diverged quite a bit.
 vim/gvim config files based on [janus][] config. A good amount of vim goodies
 were also taken from Derek's [vim-config][]
 
-**Thanks**: [quick-vim][], [vim-config][], [janus][], [nvie's vimrc][]
+**Thanks**: [quick-vim][], [vim-config][], [janus][], [nvie's vimrc][],
+[mklabs][],
 
 [vim-config]: https://github.com/derekwyatt/vim-config/
 [janus]: http://github.com/carlhuda/janus
 [quick-vim]: https://github.com/brianleroux/quick-vim/
 [nvie's vimrc]: https://github.com/nvie/vimrc
+[mklabs]: https://github.com/mklabs/vimfiles/
 
 Installation
 ------------
@@ -20,10 +22,10 @@ Clone to `~/vimfiles` on windows, clone to `~/.vim` everywhere else.
 
 ```sh
 # osx / nix
-$ git clone https://github.com/mklabs/vimfiles.git ~/.vim
+$ git clone https://github.com/ymazzer/vimfiles.git ~/.vim
 
 # windows
-$ git clone https://github.com/mklabs/vimfiles.git ~/vimfiles
+$ git clone https://github.com/ymazzer/vimfiles.git ~/vimfiles
 ```
 
 Then use the make to invoke the `install` target:
@@ -114,3 +116,13 @@ for the javascript filetype, it parses out var and function statements.
 Which is a good start.
 
 To use, simply edit a JavaScript file and run `:CtrlPFunky`.
+
+Shortcuts
+---------
+
+- `, + n` Toggle NERDTree
+- `cmd + shift + ]` Switch to next tab
+- `cmd + shift + [` Switch to previous tab
+- `control + [hjkl]` Move accross splits
+- `tt` Toggle comment
+- `, + b` Show buffers user CtrlPBuffer

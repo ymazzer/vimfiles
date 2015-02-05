@@ -7,3 +7,5 @@ nnoremap <D-Space> /{{\s*\l.\{-1,}\s*}}<cr>c/{{\s*\l*\s*}}/e<cr>
 
 "Jump between {{ var }} placeholders in Insert mode with <Ctrl-p>
 inoremap <D-Space> <ESC>/{{\s*\l.\{-1,}\s*}}<cr>c/{{\s*\l*\s*}}/e<cr>
+
+set transparency=20

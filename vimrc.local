@@ -41,8 +41,8 @@ vmap <Leader>o <Plug>(openbrowser-open)
 nmap <Leader>s <Plug>(openbrowser-search)
 vmap <Leader>s <Plug>(openbrowser-search)
 
-" ctrlp
-nmap <silent> <C-b>                        :CtrlPBuffer<CR>
+
+nmap <Leader>b :CtrlPBuffer<CR>
 
 " openbrowser
 " -----------
@@ -130,3 +130,4 @@ augroup updatepath
   autocmd BufNewFile,BufEnter  * call s:updatePath()
   autocmd BufNewFile,BufEnter  * call s:updateSuffixAdd()
 augroup END
+

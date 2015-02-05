@@ -20,7 +20,7 @@ call pathogen#helptags()
 let mapleader=','
 
 " theme
-colorscheme slate
+colorscheme elflord
 
 " show line numbers
 set number
@@ -51,7 +51,9 @@ set noswapfile
 set encoding=utf-8
 
 " Whitespace stuff
-set nowrap
+set wrap
+set wrapmargin=2
+set textwidth=80
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2

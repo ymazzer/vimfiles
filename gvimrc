@@ -14,14 +14,14 @@ endif
 set antialias                                       " MacVim: smooth fonts.
 set encoding=utf-8                                  " Use UTF-8 everywhere.
 set guioptions-=T                                   " Hide toolbar.
-set lines=25 columns=100                            " Window dimensions.
+set lines=76 columns=119                            " Window dimensions.
 set guioptions=aAce                                 " Don't show scrollbar
 
 set mousemodel=popup
 
 " default colorscheme
 set background=dark
-colorscheme slate
+colorscheme elflord
 
 if has("gui_macvim")
   " Fullscreen takes up entire screen
