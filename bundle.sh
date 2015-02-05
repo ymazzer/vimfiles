@@ -5,7 +5,7 @@ mkdir -p bundle
 git clone git://github.com/tpope/vim-fugitive.git       bundle/fugitive
 git clone git://github.com/scrooloose/nerdtree.git      bundle/nerdtree
 git clone git://github.com/scrooloose/syntastic.git     bundle/syntastic
-git clone git://github.com/mattn/zencoding-vim.git      bundle/zencoding
+git clone git://github.com/mattn/emmet-vim.git          bundle/emmet
 git clone git://github.com/msanders/snipmate.vim.git    bundle/snipmate
 git clone git://github.com/mileszs/ack.vim.git          bundle/ack
 git clone git://github.com/sjl/clam.vim.git             bundle/clam
